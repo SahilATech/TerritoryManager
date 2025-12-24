@@ -1,0 +1,38 @@
+{
+  "appId": "6e3a495b-a614-4ede-a715-5560cedaa6ac",
+  "appDisplayName": "Territory Manager",
+  "description": null,
+  "environmentId": "Default-25ee8952-64f6-43e8-93e0-51dfff043cb1",
+  "buildPath": "dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "region": "prod",
+  "connectionReferences": {
+    "6d6c0fdb-e656-4549-87f8-b0b3f801916d": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+      "displayName": "Microsoft Dataverse",
+      "dataSources": [
+        "commondataserviceforapps"
+      ],
+      "authenticationType": "Oauth",
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {
+    "default.cds": {
+      "state": "Configured",
+      "instanceUrl": "https://orga792f293.crm.dynamics.com/",
+      "webApiVersion": "v9.0",
+      "dataSources": {
+        "accounts": {
+          "entitySetName": "accounts",
+          "logicalName": "account",
+          "isHidden": false
+        }
+      },
+      "version": "v9.0",
+      "environmentVariableName": ""
+    }
+  }
+}
