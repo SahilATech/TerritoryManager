@@ -39,4 +39,6 @@ The TerritoryManager is a Power Apps Code App that visualizes customer accounts 
 
 Update `power.config.json` with your Dataverse environment details and connection references.
 
-<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/5d8e71a2-6ff1-44da-84dd-774298fb438e" />
+<img width="1918" height="867" alt="download (1)" src="https://github.com/user-attachments/assets/10a1ef58-7725-4e29-a00b-bd2969fe879f" />
+
+
